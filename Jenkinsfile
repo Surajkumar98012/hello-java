@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library@main') _
+@Library('my-shared-library@main') _
 
 mavenJarPipeline([
     dockerHubUsername: 'suraj009',
