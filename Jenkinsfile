@@ -4,4 +4,4 @@
 @Library('my-shared-library@main')
 // Call the pipeline from the library as a variable
 // You can pass a map of parameters to the pipeline if you want (e.g. mavenJarPipeline(dockerHubUser: 'username', dockerHubRepo: 'my-java-app'))
-mavenJarPipeline(dockerHubUser: 'suraj009', dockerHubRepo: 'my-java-app')
+mavenJarPipeline
