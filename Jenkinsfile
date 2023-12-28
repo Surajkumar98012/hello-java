@@ -1,7 +1,10 @@
 @Library('my-shared-library@main') _
 
-mavenJarPipeline([
+def pipelineParams = [
     dockerHubUsername: 'suraj009',
-    dockerImageName: 'my-testjava-app',
-    tag: 'latest'
-])
+    dockerImageName: 'my-test-java',
+    tag: 'v1',
+    credentialsId: 'docker-hub-credentials'
+]
+mavenJarPipeline.call(pipelineParams)
+
