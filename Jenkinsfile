@@ -4,7 +4,7 @@ def pipelineParams = [
     dockerHubUsername: 'suraj009',
     dockerImageName: 'my-test-java',
     tag: 'v1',
-    credentialsId: 'docker-hub-credentials'
+    credentialsId: '98012'
 ]
 mavenJarPipeline.call(pipelineParams)
 
